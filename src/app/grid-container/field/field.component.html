@@ -1,0 +1,6 @@
+<div class="field" [ngClass]="{
+    available: cell.available,
+    active
+}" (mouseenter)="mouseEnterElement()" (mouseleave)="mouseLeaveElement()" (click)="clickHandler()">
+    <div *ngIf="redVirus === true" class="red-virus">X</div>
+</div>

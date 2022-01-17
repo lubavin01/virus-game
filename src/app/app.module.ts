@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FieldComponent } from './grid-container/field/field.component';
+import { GridContainerComponent } from './grid-container/grid-container.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FieldComponent,
+    GridContainerComponent,
   ],
   imports: [
     BrowserModule,

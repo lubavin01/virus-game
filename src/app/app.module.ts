@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FieldComponent } from './grid-container/field/field.component';
 import { GridContainerComponent } from './grid-container/grid-container.component';
+import { ColonyService } from './services/colony.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { GridContainerComponent } from './grid-container/grid-container.componen
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ColonyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

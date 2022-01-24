@@ -16,8 +16,7 @@ export class GridContainerComponent implements OnInit, OnChanges {
     }
 
     ngOnChanges(changes: SimpleChanges): void {
-        console.log('GridContainerComponent ngOnChanges', {changes} );
-        
+
     }
 
     onClick(cellObject: ICell) {

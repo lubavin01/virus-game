@@ -2,5 +2,10 @@
     available: cell.available,
     active
 }" (mouseenter)="mouseEnterElement()" (mouseleave)="mouseLeaveElement()" (click)="clickHandler()">
-    <div *ngIf="redVirus === true" class="red-virus">X</div>
+    <div *ngIf="redVirus === true" class="red">X</div>
+    <div *ngIf="blueVirus === true" class="blue">X</div>
+    <div *ngIf="redColony === true" class="red">C</div>
+    <div *ngIf="blueColony === true" class="blue">C</div>
+
+    <div *ngIf="colonyActive === true" class="blue">A</div>
 </div>

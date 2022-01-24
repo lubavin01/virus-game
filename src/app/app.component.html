@@ -4,6 +4,7 @@
     <h3>moves left : {{movesLeft}}</h3>
 
     <div class="main">
-        <app-grid-container [cells]="cells" (cellClick)="cellClick($event)"></app-grid-container>
+        <app-cell-container [fieldSize]="fieldSize" [playerTurn]="playerTurn" >
+        </app-cell-container>
     </div>
 </div>
